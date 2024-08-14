@@ -1,7 +1,7 @@
 function ProductFirstSection() {
   return (
     <>
-      <div className="flex sm:flex-col sm:gap-[20px] md:flex-row md:gap-[100px] md:h-max-[519px] items-center">
+      <div className="flex flex-col sm:gap-[20px] md:flex-row md:gap-[100px] md:h-max-[519px] items-center">
         {/* hours */}
         <div className="ml-[55px]">
           <img src="images/Chart.png" alt="" className="h-[519px]" />

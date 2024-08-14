@@ -2,13 +2,13 @@ function Footer() {
   return (
     <>
       <div
-        className="w-full h-[992px] bg-no-repeat xl1440:bg-contain"
+        className="w-full md:h-[992px] bg-no-repeat xl1440:bg-contain"
         style={{ backgroundImage: "url('/images/Footer-bg.png')" }}
       >
-        <div className="flex items-center ">
+        <div className="flex md:flex-row flex-col items-center ">
           {/* fisrt column */}
-          <div className="  mt-[385px] ml-[170px] mb-[343px] text-white">
-            <div className="flex flex-col gap-[12px]">
+          <div className="  md:mt-[385px] md:ml-[170px] mt-[300px] md:mb-[343px] text-white">
+            <div className="flex-col gap-[12px]">
               <h3 className="font-[700] text-[32px] leading-[33.6px]">
                 AFFIXOS
               </h3>
@@ -48,7 +48,7 @@ function Footer() {
           </div>
 
           {/* second column */}
-          <div className="text-white ml-[142px] mt-[203px] mb-[161px]">
+          <div className="text-white md:ml-[142px] md:mt-[203px] mt-[100px] md:mb-[161px]">
             <p className="font-[700] text-[18px] leading-[24.3px] mb-[16px]">
               Pages
             </p>
@@ -56,34 +56,20 @@ function Footer() {
               <li>Home V1</li>
               <li>Home V2</li>
               <li>Home V3</li>
-              <li>About 1</li>
-              <li>About 2</li>
-              <li>Blog 1</li>
-              <li>Blog 2</li>
-              <li>Blog Single</li>
-              <li>Job 1</li>
-              <li>Job 2</li>
-              <li> Pricing 1</li>
-              <li>Pricing 2</li>
-              <li>Help Center 1</li>
             </ul>
           </div>
 
           {/* third column */}
-          <div className="ml-[142px] mt-[297px] mb-[431px] text-white">
+          <div className="md:ml-[142px] md:mt-[297px] md:mb-[431px] text-white">
             <ul className="flex flex-col gap-[10px]">
               <li>Help Center 2</li>
               <li>FAQ 1</li>
               <li>FAQ 2</li>
-              <li>FAQ Detail</li>
-              <li>Contact V1</li>
-              <li>Contact V2</li>
-              <li>Checkout</li>
             </ul>
           </div>
 
           {/* fourth column */}
-          <div className="ml-[176px]  text-white  mt-[210px] mr-[134px] mb-[389px]">
+          <div className="md:ml-[176px]  text-white  md:mt-[210px] md:mr-[134px] md:mb-[389px]">
             <p className="font-[700] text-[18px] leading-[24.3px] mb-[16px]">
               Utility Pages
             </p>
@@ -91,17 +77,12 @@ function Footer() {
               <li>Sign In</li>
               <li>Sign Up</li>
               <li>Forget Password</li>
-              <li>Reset Password</li>
-              <li>Email Confirmation</li>
-              <li>404 page</li>
-              <li>Coming Soon</li>
-              <li>Style Guide</li>
             </ul>
           </div>
         </div>
 
         {/* copyright */}
-        <div className="w-[1104px] ml-[168px] mb-[48px] mr-[168px] mt-[-80px]">
+        <div className=" md:ml-[168px] mb-[48px] md:mr-[168px] mt-[-80px]">
           <div className="text-center text-white border-t-[1px] border-white border-opacity-[30%]">
             <p className="  mt-[24px]">
               Copyright Stairs | Designed by HafizAhmar

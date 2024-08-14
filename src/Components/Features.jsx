@@ -9,8 +9,8 @@ function Features() {
   };
 
   return (
-    <div className="mt-[70px] ml-[119px] mr-[120px]">
-      <div className="ml-[223px] mr-[223px]">
+    <div className="mt-[70px] md:ml-[119px] md:mr-[120px]">
+      <div className="md:ml-[223px] md:mr-[223px]">
         <h2 className="text-[48px] leading-[50.4px] text-center font-[600] text-[#14358A] ">
           Key Features.
         </h2>

@@ -5,7 +5,7 @@ import ProductThirdSection from "./Product-Section-3";
 function ProductsFeatures() {
   return (
     <>
-      <div className="ml-[120px] mr-[121px] mt-[109px] flex flex-col gap-[40px] items-center">
+      <div className="md:ml-[120px] md:mr-[121px] mt-[109px] flex flex-col gap-[40px] items-center">
         <h1 className="text-[#14358A] font-[600] text-[48px] leading-[50px] text-center">
           Our Product features
         </h1>

@@ -8,7 +8,7 @@ function Contact() {
             <h2 className="mb-[11px] font-[600] text-[48px] leading-[50px]">
               Lets get in touch!
             </h2>
-            <p className="leading-[28.8px] text-[16px] font-[400] h-[87px] w-[431px]">
+            <p className="leading-[28.8px] text-[16px] font-[400] h-[87px] md:w-[431px]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
               molestias vel magni, ipsam magnam laboriosam ipsam magnam
               laboriosam.
@@ -16,7 +16,7 @@ function Contact() {
           </div>
           {/* flex-box  */}
 
-          <div className="flex md:flex-row sm:flex-col sm:gap-[20px] gap-[45px] text-white">
+          <div className="flex md:flex-row flex-col sm:gap-[20px] gap-[45px] text-white">
             <div className="h-max-[235px] lg:w-[523px] flex flex-col gap-[69px]">
               <div className="flex flex-col gap-[22px]">
                 <div className="flex gap-[13px]">

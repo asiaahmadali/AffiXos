@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <div className="mt-[109px] ml-[120px] mr-[120px]">
+      <div className="mt-[109px] md:ml-[120px] md:mr-[120px]">
         <div className="h-max-[135px] flex flex-col gap-[15px]">
           <h1 className="text-[#14358A] font-[600] text-[48px] leading-[50px] text-center">
             About Our App
