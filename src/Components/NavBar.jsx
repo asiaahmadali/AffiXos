@@ -10,7 +10,7 @@ function NavBar() {
         </div>
         <div className="mt-[32px] mb-[32px] hidden md:block">
           <nav>
-            <ul className="flex gap-[40px] text-[16px]">
+            <ul className="flex gap-[40px] text-[16px] items-center">
               <li>Home</li>
               <li>Solution</li>
               <li>Product</li>
