@@ -49,7 +49,7 @@ function Contact() {
                 <img
                   src="images/user.png"
                   alt=""
-                  className="w-[22px] h-[22px]"
+                  className="w-[30px] h-[22px]"
                 />
                 <input
                   type="text"
@@ -63,7 +63,7 @@ function Contact() {
                 <img
                   src="images/gmail.png"
                   alt=""
-                  className="w-[22px] h-[22px]"
+                  className="w-[30px] h-[22px]"
                 />
                 <input
                   type="text"

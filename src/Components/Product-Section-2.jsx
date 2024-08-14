@@ -1,7 +1,7 @@
 function ProductSecondSection() {
   return (
     <>
-      <div className="flex gap-[100px] h-max-[494px] w-full items-center">
+      <div className="flex sm:gap-[20px] sm:flex-col md:flex-row md:gap-[100px] md:h-max-[494px] w-full items-center">
         {/* descuption */}
         <div className="h-max-[294px] lg:w-[510px] flex  flex-col gap-[20px] ml-[99px]">
           <h2 className="text-[#14358A] font-[700] text-[24px] leading-[25px]">

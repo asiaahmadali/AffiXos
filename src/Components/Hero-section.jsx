@@ -1,10 +1,10 @@
 function Hero() {
   return (
     <>
-      <div className="ml-[210px] mr-[212px] text-white max-h-[1162px]">
+      <div className="ml-[210px] mr-[212px] text-white md:max-h-[1162px]">
         {/* intro */}
-        <div className="mt-[80px] ml-[100px] mr-[100px]">
-          <h1 className="text-[50px] font-[600] text-center leading-[66px]">
+        <div className="md:mt-[80px] md:ml-[100px] md:mr-[100px] sm:m-[10px]">
+          <h1 className="md:text-[50px] md:font-[600] text-[30px] font-[400] text-center leading-[66px]">
             AFFIXOS Real Time Location Tracking System
           </h1>
           <p className="mt-[24px] ml-[132px] mr-[132px] text-center font-[400] text-[18px] leading-[24.3px]">

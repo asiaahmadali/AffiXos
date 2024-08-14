@@ -2,7 +2,7 @@ function Footer() {
   return (
     <>
       <div
-        className="w-full h-[992px]"
+        className="w-full h-[992px] bg-no-repeat xl1440:bg-contain"
         style={{ backgroundImage: "url('/images/Footer-bg.png')" }}
       >
         <div className="flex items-center ">

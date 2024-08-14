@@ -1,7 +1,7 @@
 function ProductThirdSection() {
   return (
     <>
-      <div className="flex gap-[100px] h-max-[510px] justify-center items-center">
+      <div className="flex md:gap-[100px] md:h-max-[510px] sm:flex-col md:flex-row sm:gap-[20px] justify-center items-center">
         {/* hours */}
         <div className="">
           <img

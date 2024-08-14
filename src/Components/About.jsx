@@ -15,7 +15,7 @@ function About() {
         </div>
 
         {/* flex div */}
-        <div className="flex mt-[40px] gap-[118px]">
+        <div className="flex sm:flex-col md:flex-row mt-[40px] gap-[118px]">
           <div className="mt-[77px] mb-[77px]">
             <img src="images/chart-2.png" alt="" />
           </div>

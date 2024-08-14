@@ -3,7 +3,7 @@ import { FaChevronDown } from "react-icons/fa";
 function NavBar() {
   return (
     <>
-      <div className="flex text-white justify-between h-auto md:h-[86px] items-center">
+      <div className="flex text-white justify-between w-full h-auto md:h-[86px] items-center">
         <FaBars className="ml-[10px] font-[18px] md:hidden "></FaBars>
         <div className="mt-[25px] mb-[27px] ml-[170px] h-[34px] text-[22px] font-[400] md:text-[32px] md:font-[700] font-sans">
           AFFIXOS
