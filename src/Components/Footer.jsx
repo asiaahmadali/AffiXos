@@ -5,7 +5,7 @@ function Footer() {
         className="w-full h-[992px] bg-no-repeat xl1440:bg-contain"
         style={{ backgroundImage: "url('/images/Footer-bg.png')" }}
       >
-        <div className="flex items-center ">
+        <div className="flex md:flex-col sm:flex-row items-center ">
           {/* fisrt column */}
           <div className="  mt-[385px] ml-[170px] mb-[343px] text-white">
             <div className="flex flex-col gap-[12px]">

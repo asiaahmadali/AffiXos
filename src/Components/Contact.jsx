@@ -16,7 +16,7 @@ function Contact() {
           </div>
           {/* flex-box  */}
 
-          <div className="flex gap-[45px] text-white">
+          <div className="flex md:flex-row sm:flex-col sm:gap-[20px] gap-[45px] text-white">
             <div className="h-max-[235px] lg:w-[523px] flex flex-col gap-[69px]">
               <div className="flex flex-col gap-[22px]">
                 <div className="flex gap-[13px]">
