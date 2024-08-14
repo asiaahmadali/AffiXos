@@ -15,12 +15,13 @@ function Hero() {
           </p>
 
           {/* buttons */}
-          <div className="mt-[48px] ml-[208px] mr-[208px] flex gap-[16px]">
-            <button className="rounded-[10px] h-[64px] pt-[20px] pr-[40px] pb-[20px] pl-[40px] bg-gradient-to-r from-[#06268D] to-[#30D3AC]">
-              Contact
+          <div className="mt-[48px] ml-[208px] mr-[208px] flex gap-[16px] w-full">
+            <button className="rounded-[10px] w-[178px] h-[64px] pt-[20px] pr-[40px] pb-[20px] pl-[40px] bg-gradient-to-r from-[#06268D] to-[#30D3AC] font-medium">
+              Contact Us
             </button>
-            <button className=" border-[1px] border-white rounded-[10px] h-[64px] pt-[20px] pr-[40px] pb-[20px] pl-[40px]">
+            <button className=" border-[1px] w-[206px] border-white rounded-[10px] h-[64px] pt-[20px] pr-[40px] pb-[20px] pl-[40px] font-medium flex items-center">
               Learn More
+              <img src="images/arr-right.png" alt="" className="ml-[7px]" />
             </button>
           </div>
         </div>

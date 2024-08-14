@@ -1,3 +1,4 @@
+import { FaChevronDown } from "react-icons/fa";
 function NavBar() {
   return (
     <>
@@ -12,9 +13,9 @@ function NavBar() {
               <li>Solution</li>
               <li>Product</li>
               <li>Industries</li>
-              <div className="flex">
+              <div className="flex items-center gap-[8px]">
                 <li>Company</li>
-                {/* <img src="" alt="" /> */}
+                <FaChevronDown></FaChevronDown>
               </div>
             </ul>
           </nav>

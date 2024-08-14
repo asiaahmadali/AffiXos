@@ -1,8 +1,8 @@
 function Contact() {
   return (
     <>
-      <div className="bg-[#EBF7FF] w-full md:h-max-[721px] mt-[103px]">
-        <div className="mt-[67px] mr-[61.8px] mb-[67.5px] ml-[61.8px] rounded-[22.5px] p-[67.5px] md:h-max-[586px] bg-[#1D2C97]">
+      <div className="bg-[#EBF7FF] w-full md:h-max-[721px] mt-[103px] pt-[67px] pb-[67px] pl-[61px] pr-[61px]">
+        <div className="rounded-[22.5px] p-[67.5px] md:h-max-[586px] bg-[#1D2C97]">
           {/* heading */}
           <div className="text-white mb-[67px]">
             <h2 className="mb-[11px] font-[600] text-[48px] leading-[50px]">
