@@ -1,7 +1,10 @@
 function Footer() {
   return (
     <>
-      <div className="bg-[url('images/Footer-bg.png')] w-full h-[992px]">
+      <div
+        className="w-full h-[992px]"
+        style={{ backgroundImage: "url('/images/Footer-bg.png')" }}
+      >
         <div className="flex items-center ">
           {/* fisrt column */}
           <div className="  mt-[385px] ml-[170px] mb-[343px] text-white">

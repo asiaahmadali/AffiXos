@@ -8,10 +8,10 @@ function Hero() {
             AFFIXOS Real Time Location Tracking System
           </h1>
           <p className="mt-[24px] ml-[132px] mr-[132px] text-center font-[400] text-[18px] leading-[24.3px]">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            error dicta aliquid eveniet{" "}
-            <span className="font-[700]">AFFIXOS</span> debitis! Impedit facere
-            non, asperiores
+            mprove Productivity and Efficiency by Tracking and Managing Movable
+            Industrial Assets with
+            <span className="font-[700]"> AFFIXOS</span> Asset Tracking, the
+            Most Cost-Efficient Real-Time Location Solution
           </p>
 
           {/* buttons */}
